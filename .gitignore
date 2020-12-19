@@ -1,0 +1,22 @@
+# editor
+.vscode
+.idea
+
+# virtual environment
+env/
+
+
+# packing
+build/
+dist/
+*.egg-info
+
+
+# cache
+
+
+# airflow
+airflow.cfg
+webserver_config.py
+unittests.cfg
+logs/
