@@ -1,1 +1,2 @@
+kubernetes==12.0.1
 remote_kernel_provider==0.3.0

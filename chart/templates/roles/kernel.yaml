@@ -1,0 +1,16 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: kernel-controller
+  namespace: kernel-ns
+  labels:
+    app: enterprise-gateway
+    component: kernel
+subjects:
+  - kind: ServiceAccount
+    name: kernel-sa
+    namespace: kernel-ns
+roleRef:
+  kind: ClusterRole
+  name: kernel-controller
+  apiGroup: rbac.authorization.k8s.io

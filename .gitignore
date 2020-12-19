@@ -20,3 +20,4 @@ airflow.cfg
 webserver_config.py
 unittests.cfg
 logs/
+airflow.db

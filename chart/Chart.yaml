@@ -1,0 +1,7 @@
+apiVersion: v2
+name: gateway
+description: gateway access & control over kernels
+icon: https://github.optum.com/paymentintegrity/prepay-de-hphc-airflow/blob/k8s/k8s/airflow/airflow_pin.png
+type: application
+version: 0.1.0
+appVersion: 1.16.0
